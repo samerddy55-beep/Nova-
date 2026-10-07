@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova AI - مساعد المعلم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">NOVA AI</div>
+    <div class="status">● متصل</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>مساعد المعلم الذكي</h1>
+      <p>حضّر دروسك وأنشئ الأنشطة والاختبارات بسهولة.</p>
+    </section>
+
+    <section class="chat-box">
+
+      <div id="messages" class="messages">
+        <div class="message assistant">
+          مرحبًا بك في Nova 👋<br>
+          كيف يمكنني مساعدتك اليوم؟
+        </div>
+      </div>
+
+      <div class="input-area">
+        <textarea
+          id="messageInput"
+          placeholder="اكتب رسالتك هنا..."
+          rows="2"
+        ></textarea>
+
+        <button id="sendBtn">إرسال</button>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
